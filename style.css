@@ -1,0 +1,207 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', serif;
+    background-color: #ffffff;
+    color: #333333;
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+
+/* Header */
+
+header {
+    text-align: center;
+    padding: 45px 20px 25px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+header h1 {
+    font-size: 34px;
+    font-weight: normal;
+    color: #222222;
+    margin-bottom: 5px;
+}
+
+.tagline {
+    font-size: 14px;
+    color: #777777;
+    letter-spacing: 1px;
+}
+
+
+/* Navigation Bar */
+
+nav {
+    margin-top: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #444444;
+    margin: 0 15px;
+    font-size: 15px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #a05252;
+}
+
+
+/* Main Content */
+
+main {
+    max-width: 760px;
+    margin: 45px auto;
+    padding: 0 25px;
+}
+
+section {
+    margin-bottom: 45px;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: normal;
+    color: #222222;
+    margin-bottom: 18px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 8px;
+    color: #333333;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+
+/* Introduction */
+
+.intro {
+    margin-bottom: 45px;
+}
+
+.intro p {
+    color: #555555;
+}
+
+
+/* Learning Section */
+.skills ul,
+.learning ul {
+    padding-left: 25px;
+}
+.skills li,
+.learning li {
+    margin-bottom: 8px;
+    color: #555555;
+}
+
+
+/* Blog Posts */
+
+article {
+    padding: 20px 0;
+    border-bottom: 1px solid #eeeeee;
+}
+
+article:first-of-type {
+    padding-top: 5px;
+}
+
+article h3 a {
+    text-decoration: none;
+    color: #333333;
+}
+
+article h3 a:hover {
+    color: #a05252;
+}
+
+.date {
+    font-size: 13px;
+    color: #999999;
+    margin-bottom: 8px;
+}
+
+.topics {
+    font-size: 13px;
+    color: #888888;
+    margin-top: 12px;
+}
+
+
+/* View All Link */
+
+.view-all {
+    display: inline-block;
+    margin-top: 20px;
+    color: #a05252;
+    text-decoration: none;
+}
+
+.view-all:hover {
+    text-decoration: underline;
+}
+
+
+/* About Page */
+
+.about p {
+    color: #555555;
+}
+
+
+/* Footer */
+
+footer {
+    text-align: center;
+    padding: 25px 15px;
+    border-top: 1px solid #e5e5e5;
+    color: #888888;
+    font-size: 13px;
+}
+
+
+/* Mobile Responsive Design */
+
+@media (max-width: 600px) {
+
+    header {
+        padding: 30px 15px 20px;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    nav a {
+        margin: 0 8px;
+        font-size: 14px;
+    }
+
+    main {
+        margin: 30px auto;
+        padding: 0 20px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+}
